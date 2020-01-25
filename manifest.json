@@ -2,5 +2,12 @@
     "name": "Resize Fastcampus Video",
     "version": "1.0",
     "description": "Resize Fastcampus Video",
+    "browser_action":{
+        "default_icon": "images/icon.png",
+        "default_popup": "popup.html",
+        "default_title": "Toggle"
+    },
+    "icons": {"128": "images/icon.png"},
+    "permissions": ["activeTab"],
     "manifest_version": 2
   }
